@@ -1,6 +1,9 @@
 import { describe, expect, it } from "vitest";
 import { Cl } from "@stacks/transactions";
 
+// Global simnet provided by vitest-environment-clarinet
+declare const simnet: any;
+
 const accounts = simnet.getAccounts();
 const deployer = accounts.get("deployer")!;
 const wallet1 = accounts.get("wallet_1")!;
