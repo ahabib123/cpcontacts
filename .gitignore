@@ -1,0 +1,7 @@
+node_modules/
+.cache/
+package-lock.json
+.clarinet/
+*.log
+.DS_Store
+deployments/
