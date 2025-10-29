@@ -1,0 +1,9 @@
+[network]
+name = "mainnet"
+node_rpc_address = "https://api.hiro.so"
+deployment_fee_rate = 10
+
+[[network.accounts]]
+# Add your mainnet deployer address here
+# For deployment, you'll need to configure this with your actual mainnet account
+# IMPORTANT: Never commit your mainnet private keys or mnemonics to version control
